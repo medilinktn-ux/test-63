@@ -1,6 +1,6 @@
 import React from 'react';
-import { Sidebar, Drawer } from './';
-import { Button, Tooltip } from './';
+import { Sidebar } from './sidebar';
+import { Button } from './button';
 import './layout.css';
 
 interface LayoutProps {
@@ -14,16 +14,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div className="layout-content">
         <div className="layout-header">
           <Button>
-            <Tooltip>
-              Tooltip content
-            </Tooltip>
+            Header Button
           </Button>
         </div>
         <div className="layout-main">
           {children}
         </div>
       </div>
-      <Drawer />
     </div>
   );
 };

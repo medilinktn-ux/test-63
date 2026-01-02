@@ -1,6 +1,3 @@
-// src/utils/constants.ts
-// Application constants
-
 export const COLORS = {
   PRIMARY: '#3498db',
   SECONDARY: '#f1c40f',
@@ -15,6 +12,11 @@ export const FONT_SIZES = {
   SMALL: '12px',
   MEDIUM: '16px',
   LARGE: '20px',
+};
+
+export const FONT_FAMILIES = {
+  PRIMARY: 'Arial, sans-serif',
+  SECONDARY: 'Helvetica, sans-serif',
 };
 
 export const SPACING = {
